@@ -62,25 +62,6 @@ namespace GitExercise
                     return;
             }
 
-            switch (choice)
-            {
-                case "a":
-                    OptionsManager.Add(a, b);
-                    break;
-                case "s":
-                    OptionsManager.Subtract(a, b);
-                    break;
-                case "m":
-                    OptionsManager.Multiply(a, b);
-                    break;
-                case "d":
-                    OptionsManager.Divide(a, b);
-                    break;
-                case "sabs":
-                    OptionsManager.SubtractAbs(a, b);
-                    break;
-            }
-
             Console.WriteLine("Pres any key to close the app...");
             Console.ReadKey(true);
         }
